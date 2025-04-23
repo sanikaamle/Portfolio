@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="contact-info">
+        <h2>Contact</h2>
+        <p>Email: example@email.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: Someplace, World</p>
+        <div class="socials">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+      <button id="toggle-mode">Change Color Mode</button>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <nav class="tabs">
+        <button id="roadmap-tab">Roadmap</button>
+        <button id="about-tab">About Me</button>
+      </nav>
+      <section id="roadmap-section" class="section">
+        <div class="roadmap">
+          <div class="line"></div>
+          <div class="milestones">
+            <div class="milestone" data-content="Started College">1</div>
+            <div class="milestone" data-content="First Hackathon">2</div>
+            <div class="milestone" data-content="Learned Web Dev">3</div>
+          </div>
+          <div class="car"></div>
+        </div>
+      </section>
+      <section id="about-section" class="section hidden">
+        <img src="your-photo.jpg" alt="Your Photo" class="profile-pic">
+        <h2>Languages I Know</h2>
+        <p>Python, JavaScript, HTML, CSS</p>
+        <h2>Skills</h2>
+        <p>Web Development, Graphic Design</p>
+        <h2>Projects</h2>
+        <p>Spotify Clone, HealthConnect, MindQuestor</p>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    background-color: #1e1e2e;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: #282a36;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar h2, .sidebar p, .sidebar a {
+    color: #f8f8f2;
+  }
+  
+  .sidebar .socials a {
+    display: block;
+    margin: 5px 0;
+    color: #6272a4;
+    text-decoration: none;
+  }
+  
+  .sidebar button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #44475a;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background: #1e1e2e;
+    position: relative;
+  }
+  
+  .tabs button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background: #44475a;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .roadmap {
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    height: 4px;
+    width: 100%;
+    background: white;
+    position: absolute;
+  }
+  
+  .milestones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .milestone {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #6272a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .car {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 50px;
+    height: 30px;
+    background: #ff79c6;
+    border-radius: 5px;
+  }
+  
